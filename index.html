@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Template</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="cv-container">
+        <header>
+            <div class="profile">
+                <div id="imagePreview"><img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic"></div>
+                <div class="upload-container">
+                    <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                    <button id="uploadButton">Upload Image</button>
+                    
+                </div>
+                <h1 id="name" contenteditable="true">Your Name</h1>
+                <p id="title" contenteditable="true">Your Professional Title</p>
+            </div>
+        </header>
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p id="email" contenteditable="true">Email: youremail@example.com</p>
+            <p id="phone" contenteditable="true">Phone: +123 456 7890</p>
+            <p id="location" contenteditable="true">Location: Your City, Country</p>
+        </section>
+
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3 id="job-title-1" contenteditable="true">Job Title 1</h3>
+                <p id="job-company-1" contenteditable="true">Company Name 1, Location</p>
+                <p id="job-dates-1" contenteditable="true">Start Date - End Date</p>
+                <p id="job-description-1" contenteditable="true">Brief description of your role and responsibilities.</p>
+            </div>
+            <div class="job">
+                <h3 id="job-title-2" contenteditable="true">Job Title 2</h3>
+                <p id="job-company-2" contenteditable="true">Company Name 2, Location</p>
+                <p id="job-dates-2" contenteditable="true">Start Date - End Date</p>
+                <p id="job-description-2" contenteditable="true">Brief description of your role and responsibilities.</p>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3 id="degree-1" contenteditable="true">Degree Name</h3>
+                <p id="institution-1" contenteditable="true">Institution Name, Location</p>
+                <p id="education-dates-1" contenteditable="true">Start Date - End Date</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul id="skills-list" contenteditable="true">
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+            </ul>
+        </section>
+
+        <section class="interests">
+            <h2>Interests</h2>
+            <p id="interests-text" contenteditable="true">Your interests or hobbies.</p>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
